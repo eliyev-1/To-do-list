@@ -1,0 +1,64 @@
+.todoList {
+  background-color: white;
+  width: 80%;
+  height: 50rem;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+}
+.todoList__content{
+  width: 90%;
+}
+.valueAdd {
+ 
+  width: 100%;
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+input {
+  width: 100%;
+  height: 3rem;
+  border: 0.1rem solid var(--color-blue);
+}
+button {
+  width: 100%;
+  cursor: pointer;
+  background-color: var(--color-blue);
+  color: var(--color-white);
+  width: 6rem;
+  height: 3rem;
+  border-radius: 0.5rem;
+}
+
+.todoList__list{
+  
+    gap: 2rem;
+    padding: 1rem;
+   
+}
+
+span{
+  color: var(--color-white);
+cursor: pointer;
+}
+.alertListDelete{
+    display: none;
+}
+.div{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: auto;
+  background-color: var(--color-blue);
+  padding: 1rem;
+  border-radius: 1rem;
+  color: var(--color-white);
+}
+p{
+ word-break: break-all;
+}
